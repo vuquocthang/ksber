@@ -1,0 +1,218 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.ac-globalnav{
+    width: 100%;
+    height: 64px;
+    margin: 0;
+    box-shadow:    0 0 10px rgba(0, 0, 0, 0.63);
+}
+.row-globalnav{
+    padding-top: 20px;
+    margin: 0 15px;
+    height: 44px;
+    line-height: 28px;
+    font-size: 18px;
+}
+.link{
+    text-decoration: none;
+    margin-left: 7px;
+    padding: 0px 6px ;
+    display: block;
+    height: 42px;
+    float: left;
+    color: #666;
+}
+.link:hover{
+    border-top: solid 2px  #ff9147;
+}
+.boxsearch {
+    margin-left: 90px;
+    display: block;
+    float: left;
+}
+.boxsearch input{
+    float: left;
+    width: 450px;
+    height: 25px;
+    font-size: 14px;
+    color: #333;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    border: 1px solid #2192D9;;
+    border-right: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.boxsearch input:focus{
+    outline: none;
+}
+.boxsearch button{
+    float: left;
+    background: #ff9147;
+    background-image: url("search-icon-png-19.png");
+    width: 50px;
+    height: 29px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border: 1px solid #2192D9;
+    border-left: 0;
+}
+.boxsearch .searchIcon{
+    background-image: url("search-50.png");
+    background-size: contain;
+    background-repeat: no-repeat ;
+    background-position: 7px 0;
+    height: 25px;
+    width: 42px;
+    display: block;
+    opacity: 0.8;
+}
+.boxsearch button:focus{
+    outline: none;
+}
+.boxsearch button:hover{
+    cursor: pointer;
+    background:#e35300;;
+}
+.boxsearch .searchIcon:hover{
+    opacity: 1;
+}
+.navRightBox{
+    float: right;
+}
+.navRightBox .navRighBoxSub{
+    margin-right: 25px;
+    float: left;
+}
+.navRightBox .notification{
+    margin-right: 10px !important;
+}
+.iconLogin {
+    float: left;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-image: url("sprite.png");
+    background-position: -107px -100px;
+
+    display: block;
+    cursor: pointer;
+}
+.titleLoginSignUp{
+    float: right;
+    margin-left: 5px;
+    color: #1686CC;
+    font-size: 14px;
+    line-height: 16px;
+    cursor: pointer;
+}
+.iconNotification{
+    position: relative;
+    float: left;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-image: url("sprite.png");
+    background-position: -9px -100px;
+    display: block;
+    cursor: pointer;
+}
+
+.iconNumberNotification{
+    position: absolute;
+    width:20px;
+    height: 20px;
+    border-radius: 10px;
+    background: red;
+    top:-5px;
+    right: -5px;
+    line-height: 20px;
+    color: #F1F1F1;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+
+.titleNotification{
+    float: right;
+    margin-left: 5px;
+    color: #1686CC;;
+    font-size: 14px;
+    line-height: 33px;
+    cursor: pointer;
+}
+.searchnav{
+    height: 5px;
+}
+.content{
+    padding: 50px 30px;
+    background: #F1F1F1;
+}
+.content .img img{
+    width: 622px;
+    height: 450px;
+    border: 2px solid #333;
+    border-radius: 2px;
+}
+.content .image1{
+    float: left;
+}
+.content .image2{
+    float: right;
+}
+.content .info{
+    margin-top: 30px;
+    padding: 15px 30px;
+    color: #333;
+    border: 2px solid #333;
+    border-radius: 2px;
+}
+.content .infoSub{
+    color: #1686CC;
+}
+.content .infoSub,.valueInfoSub {
+    display: inline;
+}
+.content .valueInfoSub a:link{
+    text-decoration: none;
+}
+.content .valueInfoSub a:hover{
+    text-decoration: underline;
+}
+.content .clear{
+    clear: both;
+}
+.content .cmt{
+    margin: auto;
+    height: 20px;
+    background: red;
+}
+@media screen and (min-width:0) and (max-width:769px){
+    .boxsearch {
+        margin: auto;
+        width: 100%;
+    }
+    .boxsearch input{
+        width: 90%;
+        float: left;
+    }
+    .boxsearch button{
+        width: 10%;
+        float: left;
+    }
+    .link,.navRightBox{
+        display: none;
+    }
+    .content{
+        padding: 10px 0px 0px;
+    }
+    .content .img img{
+        width: 50%;
+    }
+
+
+}

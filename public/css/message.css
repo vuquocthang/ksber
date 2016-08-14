@@ -1,0 +1,20 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    background: #232425;
+    position: fixed;
+}
+
+.wrapper {
+    width: 150px;
+    height: 150px;
+    background: rgba(35, 37, 30, 0.88);
+    border: 1px solid  rgba(79, 126, 151, 0.25);
+    position: relative;
+    top: 50px;
+    left: 50px;
+}

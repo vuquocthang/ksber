@@ -1,0 +1,233 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    background: #F1F1F1;
+}
+.banner{
+    font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+}
+.banner .rank_btn{
+    background: #F3C900;
+    float: right;
+    text-decoration: none;
+    color: #F1F1F1 !important;
+    border: 2px solid #6c7478;
+}
+.message{
+    position: relative;
+    height: 40px;
+    background: #5DA423;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    line-height: 40px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+}
+.message .show{
+    float: left;
+    margin-right: 5px;
+}
+.message .close {
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    width: 28px;
+    height: 28px;
+    opacity: 0.7;
+}
+.message .close:hover {
+    opacity: 1;
+}
+.message .close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 25px;
+    width: 2px;
+    background-color: #333;
+}
+.message .close:before {
+    transform: rotate(45deg);
+}
+.message .close:after {
+    transform: rotate(-45deg);
+}
+.con-img{
+    border: 2px solid #6c7478;
+    border-radius: 2px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background: rgba(127, 133, 142, 0.85);
+    display: block;
+    position: relative;
+    float: left;
+}
+
+.con-img .img{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    vertical-align: middle;
+    position: absolute;
+    top: 0; right: 0;
+    bottom: 0; left: 0;
+}
+.right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.info{
+    color: #2b3033;
+    border: 2px solid #6c7478;
+    border-top: none;
+    display: block;
+}
+.info .title{
+    color: #1686CC;
+}
+.info .content{
+    padding: 10px;
+}
+.girl_1{
+    float: left;
+}
+.girl_2{
+    float: right;
+}
+@media screen and (min-width:0px) and (max-width:319px){
+    .container .con-img{
+        width: 47%;
+        height: 200px;
+    }
+    .container .info{
+        width: 47%;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:480px){
+    body{
+        padding: 0px 6px;
+    }
+    .container{
+        max-width: 380px;
+        margin: auto;
+        overflow: visible;
+    }
+    .container .banner{
+        font-size: 15px;
+        height: 25px;
+        line-height: 25px;
+        margin-bottom: 8px;
+    }
+    .container .banner .rank_btn{
+        font-size: 12px;
+        line-height: 18px;
+        vertical-align: text-top;
+        padding: 2px;
+    }
+    .container .con-img{
+        width: 47%;
+        height: 180px;
+    }
+    .container .info{
+        width: 47%;
+    }
+    .container .message {
+        font-size: 10px;
+        padding-left: 5px;
+        height: 30px;
+        line-height: 30px;
+        margin-bottom: 2px !important;
+    }
+    .container .message .close{
+        right: 3px;
+    }
+    .container .message .hidden{
+        display: none;
+    }
+    .container .message .close:before, .close:after {
+        position: absolute;
+        left: 15px;
+        content: ' ';
+        height: 15px;
+        width: 2px;
+        background-color: #333;
+    }
+    .container .info{
+        font-size: 10px;
+    }
+}
+@media screen and (min-width:481px) and (max-width:640px){
+    .container{
+        max-width: 500px;
+        margin: auto;
+    }
+    .banner{
+        font-size: 18px !important;
+    }
+    .message{
+        font-size: 14px;
+
+    }
+    .container .con-img{
+        width: 47%;
+        height: 200px;
+    }
+    .container .info{
+        width: 47%;
+    }
+}
+@media screen and (min-width:641px) and (max-width:960px){
+    body{
+        padding: 0 10px;
+    }
+
+    .container{
+
+    }
+    .container .banner{
+        font-size: 20px;
+        height: 40px;
+        line-height: 30px;
+    }
+    .container .banner .rank_btn{
+        padding: 2px;
+    }
+    .container .message{
+        font-size: 14px;
+        padding: 0px 5px;
+    }
+    .container .con-img{
+        width: 47%;
+        height: 500px;
+    }
+    .container .info{
+        width: 47%;
+    }
+}
+
+@media screen and (min-width:1012px){
+    .container{
+        padding: 20px 0px;
+        display: block;
+        max-width: 1100px;
+        margin: auto;
+    }
+    .container .banner{
+        font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+        font-size: 50px;
+        margin-bottom: 15px;
+        color: rgba(32,48,60,1);
+    }
+    .container .con-img{
+        width: 480px;
+        height: 512px;
+    }
+    .container .info{
+        width: 480px;
+    }
+}
